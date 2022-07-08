@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>Zara Yaponsk</title>
+</head>
+
+<body>
+    <!--Навигация-->
+    <header class="header__main">
+        <div class="header__inner">
+            <div class="logo">
+                <h1>YAPONSKA REDAKTSIYA</h1>
+            </div>
+            <div class="header__nav">
+                <a href="#" class="nav__link__1">SUSHI</a>
+                <a href="#" class="nav__link__2">ROLLS</a>
+                <a href="#" class="nav__link__3">SETS</a>
+            </div>
+        </div>
+    </header>
+    <!--кнопки-->
+    <div class="navButtons">
+        <div class="button_2"><img src="./images/arrow.png" width="13px" height="13px" class="arrow__left">
+            <P id="left"></P>
+        </div>
+        <div class="button_1">
+            <P id="right">ROLLS</P><img src="./images/arrow.png" width="13px" height="13px" class="arrow__right">
+        </div>
+
+    </div>
+    <div class="order__menu">
+        <div class="wrap">
+            <button class="order__button" id="open__window">ЗАМОВИТИ</button>
+        </div>
+    </div>
+    <div class="order" id="order__window">
+        <div class="order__container">
+            <div class="order__window">
+                <p>Оставить заказ</p>
+                <form action="php/telegram.php" method="POST">
+                    <input type="text" placeholder="Имя" name="name">
+                    <input type="tel" placeholder="+38XXXXXXXXXX" name="phone" minlength="13" maxlength="13">
+                    <input type="text" placeholder="Комментарий" name="comment" >
+                    <button class="link__order" type="submit" >Заказать звонок</button>
+                </form>
+                <div class="order__window__close" id="close__window">&#10006</div>
+                
+            </div>
+        </div>
+    </div>
+    <!--Главное окно-->
+    <div class="main">
+        <div class="viewport">
+            <div class="page1">
+                <div class="content">
+                    <div class="container__wrapper">
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="intro__first">
+                                    <div class="intro__title_first">
+                                        <p class="intro__text">SUSHI</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="page2">
+                <div class="content">
+                    <div class="container__wrapper">
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="intro__first">
+                                    <div class="intro__title_first">
+                                        <p class="intro__text">SUSHI</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="SUSHI" class="product__card__img">
+                                        <div class="product__title">
+                                            
+                                            <div class="product__sostav">
+                                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                            </p></div>
+                                            <div class="product__price"><p>299UAH</p></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page3">
+                <div class="content">
+                    <div class="container__wrapper">
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="intro__first">
+                                    <div class="intro__title_first">
+                                        <p class="intro__text">SUSHI</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="" width="500px" height="500px"
+                                            class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__screen">
+                            <div class="slide">
+                                <div class="product__card__screen">
+                                    <div class="product__card">
+                                        <img src="./images/primer.jpg" alt="SUSHI" class="product__card__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="JS/app.js"></script>
+
+</body>
+
+</html>
